@@ -8,6 +8,7 @@ hadoop_setup/hadoop-3.1.1/share
 hadoop_setup/hadoop-3.1.1/LICENSE.txt
 hadoop_setup/hadoop-3.1.1/NOTICE.txt
 hadoop_setup/hadoop-3.1.1/README.txt
+datasets/
 *.class
 *.log
 *.cache
