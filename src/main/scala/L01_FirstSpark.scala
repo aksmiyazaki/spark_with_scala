@@ -2,7 +2,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark._
 
 object L01_FirstSpark extends App {
-  val dsPath = "hdfs://localhost:9000/ml-100k/u.data"
+  val dsPath = "hdfs://localhost:9000/datasets/ml-100k/u.data"
   Logger.getLogger("org").setLevel(Level.ERROR)
 
   val sc = new SparkContext("local[*]", "RatingsCounter")
