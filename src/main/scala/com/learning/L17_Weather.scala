@@ -1,7 +1,9 @@
+package com.learning
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
-import scala.math.min
-import scala.math.max
+
+import scala.math.{max, min}
 
 object L17_Weather extends App {
   Logger.getLogger("org").setLevel(Level.ERROR)

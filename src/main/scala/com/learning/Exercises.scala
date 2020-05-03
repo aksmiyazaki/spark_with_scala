@@ -1,3 +1,5 @@
+package com.learning
+
 import scala.annotation.tailrec
 
 object Exercises extends App {

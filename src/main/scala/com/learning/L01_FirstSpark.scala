@@ -1,5 +1,7 @@
+package com.learning
+
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark._
+import org.apache.spark.SparkContext
 
 object L01_FirstSpark extends App {
   val dsPath = "hdfs://localhost:9000/datasets/ml-100k/u.data"
